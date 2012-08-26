@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ViewLevel1Controller.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSLog(@"Root view loaded");
 	// Do any additional setup after loading the view, typically from a nib.
+//    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)viewDidUnload
@@ -33,6 +37,17 @@
     } else {
         return YES;
     }
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBarHidden = YES;
+}
+
+- (IBAction)showViewLevel1:(id)sender {
+    NSLog(@"showViewLevel1");
+    ViewLevel1Controller *level1Controller = [[ViewLevel1Controller alloc] init];
+    [self.navigationController pushViewController:level1Controller animated:YES];
 }
 
 @end

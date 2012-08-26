@@ -15,8 +15,9 @@
 		361DACCA15EA68A70077FFB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 361DACC915EA68A70077FFB9 /* AppDelegate.m */; };
 		361DACCD15EA68A70077FFB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361DACCC15EA68A70077FFB9 /* ViewController.m */; };
 		361DACD015EA68A70077FFB9 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361DACCE15EA68A70077FFB9 /* ViewController_iPhone.xib */; };
-		361DACD315EA68A70077FFB9 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361DACD115EA68A70077FFB9 /* ViewController_iPad.xib */; };
 		361DACDA15EA69130077FFB9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361DACD915EA69130077FFB9 /* MainWindow.xib */; };
+		369C9D8315EA79F10066D8C0 /* ViewLevel1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 369C9D8115EA79F10066D8C0 /* ViewLevel1Controller.m */; };
+		369C9D8415EA79F10066D8C0 /* ViewLevel1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 369C9D8215EA79F10066D8C0 /* ViewLevel1Controller.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +34,10 @@
 		361DACCB15EA68A70077FFB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		361DACCC15EA68A70077FFB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		361DACCF15EA68A70077FFB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		361DACD215EA68A70077FFB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		361DACD915EA69130077FFB9 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		369C9D8015EA79F10066D8C0 /* ViewLevel1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLevel1Controller.h; sourceTree = "<group>"; };
+		369C9D8115EA79F10066D8C0 /* ViewLevel1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLevel1Controller.m; sourceTree = "<group>"; };
+		369C9D8215EA79F10066D8C0 /* ViewLevel1Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewLevel1Controller.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +89,10 @@
 				361DACCB15EA68A70077FFB9 /* ViewController.h */,
 				361DACCC15EA68A70077FFB9 /* ViewController.m */,
 				361DACCE15EA68A70077FFB9 /* ViewController_iPhone.xib */,
-				361DACD115EA68A70077FFB9 /* ViewController_iPad.xib */,
 				361DACD915EA69130077FFB9 /* MainWindow.xib */,
+				369C9D8015EA79F10066D8C0 /* ViewLevel1Controller.h */,
+				369C9D8115EA79F10066D8C0 /* ViewLevel1Controller.m */,
+				369C9D8215EA79F10066D8C0 /* ViewLevel1Controller.xib */,
 				361DACC015EA68A70077FFB9 /* Supporting Files */,
 			);
 			path = "Nav-3";
@@ -157,8 +162,8 @@
 			files = (
 				361DACC415EA68A70077FFB9 /* InfoPlist.strings in Resources */,
 				361DACD015EA68A70077FFB9 /* ViewController_iPhone.xib in Resources */,
-				361DACD315EA68A70077FFB9 /* ViewController_iPad.xib in Resources */,
 				361DACDA15EA69130077FFB9 /* MainWindow.xib in Resources */,
+				369C9D8415EA79F10066D8C0 /* ViewLevel1Controller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +177,7 @@
 				361DACC615EA68A70077FFB9 /* main.m in Sources */,
 				361DACCA15EA68A70077FFB9 /* AppDelegate.m in Sources */,
 				361DACCD15EA68A70077FFB9 /* ViewController.m in Sources */,
+				369C9D8315EA79F10066D8C0 /* ViewLevel1Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,14 +198,6 @@
 				361DACCF15EA68A70077FFB9 /* en */,
 			);
 			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		361DACD115EA68A70077FFB9 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				361DACD215EA68A70077FFB9 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -297,6 +295,7 @@
 				361DACD815EA68A70077FFB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
