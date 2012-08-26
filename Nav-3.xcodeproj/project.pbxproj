@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361DACBA15EA68A70077FFB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361DACB915EA68A70077FFB9 /* UIKit.framework */; };
+		361DACBC15EA68A70077FFB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361DACBB15EA68A70077FFB9 /* Foundation.framework */; };
+		361DACBE15EA68A70077FFB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361DACBD15EA68A70077FFB9 /* CoreGraphics.framework */; };
+		361DACC415EA68A70077FFB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 361DACC215EA68A70077FFB9 /* InfoPlist.strings */; };
+		361DACC615EA68A70077FFB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 361DACC515EA68A70077FFB9 /* main.m */; };
+		361DACCA15EA68A70077FFB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 361DACC915EA68A70077FFB9 /* AppDelegate.m */; };
+		361DACCD15EA68A70077FFB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361DACCC15EA68A70077FFB9 /* ViewController.m */; };
+		361DACD015EA68A70077FFB9 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361DACCE15EA68A70077FFB9 /* ViewController_iPhone.xib */; };
+		361DACD315EA68A70077FFB9 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361DACD115EA68A70077FFB9 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		361DACB515EA68A70077FFB9 /* Nav-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nav-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		361DACB915EA68A70077FFB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		361DACBB15EA68A70077FFB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		361DACBD15EA68A70077FFB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		361DACC115EA68A70077FFB9 /* Nav-3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nav-3-Info.plist"; sourceTree = "<group>"; };
+		361DACC315EA68A70077FFB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		361DACC515EA68A70077FFB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		361DACC715EA68A70077FFB9 /* Nav-3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nav-3-Prefix.pch"; sourceTree = "<group>"; };
+		361DACC815EA68A70077FFB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		361DACC915EA68A70077FFB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		361DACCB15EA68A70077FFB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		361DACCC15EA68A70077FFB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		361DACCF15EA68A70077FFB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		361DACD215EA68A70077FFB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361DACB215EA68A70077FFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361DACBA15EA68A70077FFB9 /* UIKit.framework in Frameworks */,
+				361DACBC15EA68A70077FFB9 /* Foundation.framework in Frameworks */,
+				361DACBE15EA68A70077FFB9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361DACAA15EA68A70077FFB9 = {
+			isa = PBXGroup;
+			children = (
+				361DACBF15EA68A70077FFB9 /* Nav-3 */,
+				361DACB815EA68A70077FFB9 /* Frameworks */,
+				361DACB615EA68A70077FFB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		361DACB615EA68A70077FFB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361DACB515EA68A70077FFB9 /* Nav-3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361DACB815EA68A70077FFB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				361DACB915EA68A70077FFB9 /* UIKit.framework */,
+				361DACBB15EA68A70077FFB9 /* Foundation.framework */,
+				361DACBD15EA68A70077FFB9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		361DACBF15EA68A70077FFB9 /* Nav-3 */ = {
+			isa = PBXGroup;
+			children = (
+				361DACC815EA68A70077FFB9 /* AppDelegate.h */,
+				361DACC915EA68A70077FFB9 /* AppDelegate.m */,
+				361DACCB15EA68A70077FFB9 /* ViewController.h */,
+				361DACCC15EA68A70077FFB9 /* ViewController.m */,
+				361DACCE15EA68A70077FFB9 /* ViewController_iPhone.xib */,
+				361DACD115EA68A70077FFB9 /* ViewController_iPad.xib */,
+				361DACC015EA68A70077FFB9 /* Supporting Files */,
+			);
+			path = "Nav-3";
+			sourceTree = "<group>";
+		};
+		361DACC015EA68A70077FFB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				361DACC115EA68A70077FFB9 /* Nav-3-Info.plist */,
+				361DACC215EA68A70077FFB9 /* InfoPlist.strings */,
+				361DACC515EA68A70077FFB9 /* main.m */,
+				361DACC715EA68A70077FFB9 /* Nav-3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361DACB415EA68A70077FFB9 /* Nav-3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361DACD615EA68A70077FFB9 /* Build configuration list for PBXNativeTarget "Nav-3" */;
+			buildPhases = (
+				361DACB115EA68A70077FFB9 /* Sources */,
+				361DACB215EA68A70077FFB9 /* Frameworks */,
+				361DACB315EA68A70077FFB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nav-3";
+			productName = "Nav-3";
+			productReference = 361DACB515EA68A70077FFB9 /* Nav-3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361DACAC15EA68A70077FFB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = KILAB;
+			};
+			buildConfigurationList = 361DACAF15EA68A70077FFB9 /* Build configuration list for PBXProject "Nav-3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 361DACAA15EA68A70077FFB9;
+			productRefGroup = 361DACB615EA68A70077FFB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361DACB415EA68A70077FFB9 /* Nav-3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361DACB315EA68A70077FFB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361DACC415EA68A70077FFB9 /* InfoPlist.strings in Resources */,
+				361DACD015EA68A70077FFB9 /* ViewController_iPhone.xib in Resources */,
+				361DACD315EA68A70077FFB9 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361DACB115EA68A70077FFB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361DACC615EA68A70077FFB9 /* main.m in Sources */,
+				361DACCA15EA68A70077FFB9 /* AppDelegate.m in Sources */,
+				361DACCD15EA68A70077FFB9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		361DACC215EA68A70077FFB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361DACC315EA68A70077FFB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		361DACCE15EA68A70077FFB9 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361DACCF15EA68A70077FFB9 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		361DACD115EA68A70077FFB9 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361DACD215EA68A70077FFB9 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		361DACD415EA68A70077FFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		361DACD515EA68A70077FFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		361DACD715EA68A70077FFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nav-3/Nav-3-Prefix.pch";
+				INFOPLIST_FILE = "Nav-3/Nav-3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		361DACD815EA68A70077FFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nav-3/Nav-3-Prefix.pch";
+				INFOPLIST_FILE = "Nav-3/Nav-3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361DACAF15EA68A70077FFB9 /* Build configuration list for PBXProject "Nav-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361DACD415EA68A70077FFB9 /* Debug */,
+				361DACD515EA68A70077FFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361DACD615EA68A70077FFB9 /* Build configuration list for PBXNativeTarget "Nav-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361DACD715EA68A70077FFB9 /* Debug */,
+				361DACD815EA68A70077FFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361DACAC15EA68A70077FFB9 /* Project object */;
+}
