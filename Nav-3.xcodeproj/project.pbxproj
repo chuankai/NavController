@@ -16,6 +16,7 @@
 		361DACCD15EA68A70077FFB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361DACCC15EA68A70077FFB9 /* ViewController.m */; };
 		361DACD015EA68A70077FFB9 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361DACCE15EA68A70077FFB9 /* ViewController_iPhone.xib */; };
 		361DACD315EA68A70077FFB9 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361DACD115EA68A70077FFB9 /* ViewController_iPad.xib */; };
+		361DACDA15EA69130077FFB9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361DACD915EA69130077FFB9 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		361DACCC15EA68A70077FFB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		361DACCF15EA68A70077FFB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		361DACD215EA68A70077FFB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		361DACD915EA69130077FFB9 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				361DACCC15EA68A70077FFB9 /* ViewController.m */,
 				361DACCE15EA68A70077FFB9 /* ViewController_iPhone.xib */,
 				361DACD115EA68A70077FFB9 /* ViewController_iPad.xib */,
+				361DACD915EA69130077FFB9 /* MainWindow.xib */,
 				361DACC015EA68A70077FFB9 /* Supporting Files */,
 			);
 			path = "Nav-3";
@@ -155,6 +158,7 @@
 				361DACC415EA68A70077FFB9 /* InfoPlist.strings in Resources */,
 				361DACD015EA68A70077FFB9 /* ViewController_iPhone.xib in Resources */,
 				361DACD315EA68A70077FFB9 /* ViewController_iPad.xib in Resources */,
+				361DACDA15EA69130077FFB9 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
